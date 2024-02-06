@@ -1,0 +1,50 @@
+.banner {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.moving {
+  position: relative;
+  top: 3rem;
+  left: 7rem;
+}
+
+.headingText {
+  font-size: xxx-large;
+  margin-bottom: 0.4rem;
+  font-family: 'Merriweather', serif;
+}
+
+.paragraph {
+    width: 80%;
+    font-weight: 600;
+    line-height: 2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+    margin-top: 1rem;
+    background-color: lightgray;
+    width: 100%;
+    height: 5rem;
+    border-radius: 0.25rem;
+}
+
+.right {
+  width: 100%;
+  height: 100%;
+}
+
+.right .headerPic {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

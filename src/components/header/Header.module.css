@@ -1,0 +1,35 @@
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.headerLeft {
+    padding-right: 4rem;
+}
+
+.headerRight {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.headerRight1 {
+    padding: 1rem 0;
+}
+
+.headerRight1 nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.headerRight2 button {
+    background-color: #1C3988;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    outline: none;
+    color: white;
+}
