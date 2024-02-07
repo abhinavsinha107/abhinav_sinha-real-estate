@@ -21,5 +21,9 @@ code {
 }
 
 .container {
-  margin: 3rem 8rem;
+  padding: 3rem 8rem;
+}
+
+.bg-color {
+  background-color: #f3f3fa;
 }
