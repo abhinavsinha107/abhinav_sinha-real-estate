@@ -1,0 +1,34 @@
+.aboutUs {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin-top: 1rem;
+}
+
+.left {
+  width: 60%;
+}
+
+.leftImage {
+  width: 100%;
+  object-fit: contain;
+}
+
+.right {
+  width: 30%;
+  height: auto;
+}
+
+.heading {
+  font-family: "Merriweather", serif;
+  margin-bottom: 2rem;
+}
+
+.description1 {
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 2rem;
+}
+
+.description2 {
+  font-family: "Open Sans", sans-serif;
+}

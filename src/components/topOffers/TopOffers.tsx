@@ -1,3 +1,4 @@
+import Card from "../card/Card";
 import styles from "./TopOffers.module.css"
 
 const TopOffers = () => {
@@ -18,7 +19,11 @@ const TopOffers = () => {
             </div>
           </div>
           <div className={styles.cards}>
-            
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
           </div>
         </div>
       </div>

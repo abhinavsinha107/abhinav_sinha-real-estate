@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "./Header.module.css";
 
 const Header = () => {
@@ -21,9 +22,11 @@ const Header = () => {
               </ul>
             </nav>
           </div>
-          <div className={styles.headerRight2}>
-            <button>Contact Us</button>
-          </div>
+          <Link to="/login">
+            <div className={styles.headerRight2}>
+              <button>Login</button>
+            </div>
+          </Link>
         </div>
       </div>
     </div>

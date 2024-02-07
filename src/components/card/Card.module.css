@@ -1,0 +1,35 @@
+.card {
+  width: 20vw;
+}
+
+.propertyImage {
+  width: 100%;
+  height: 20vh;
+  background-color: black;
+}
+
+.content {
+  padding: 0.5rem;
+  background-color: white;
+}
+
+.desc {
+  font-family: "Merriweather", serif;
+  font-weight: bold;
+  font-size: smaller;
+  margin-bottom: 0.7rem;
+}
+
+.price {
+  font-size: x-small;
+  font-weight: bold;
+  color: #4764c3;
+  margin-bottom: 0.5rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.place {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: x-small;
+}
